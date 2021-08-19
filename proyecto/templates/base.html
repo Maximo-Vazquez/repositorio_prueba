@@ -1,0 +1,97 @@
+<!DOCTYPE html> <!-- nombra el nombre de la version de html-->
+{% load static %}
+<!-- <html lang = "es"   es el lenguaje que vamos a utilizar-->
+<html lang="es">
+    <head><!-- es la cabeza de la pagina -->
+        <title>CHaco PREGUNTAS </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- llamar otros achivos-->
+
+        <link rel="stylesheet" href="{% static 'css/estilos.css'%}">
+
+        
+    </head>
+    
+    <!--css -->
+    <style>
+      
+    </style>
+   
+
+
+    <body><!-- es el cuerpo de la pagina web-->
+        <div class=pantalla_principal>
+            
+            
+            <header >   
+                <h1>Preguntas Chaco</h1>
+            </header> <!-- titulo de la pagina -->
+
+            <nav class="menu"><!-- pestaña de navegacion-->
+                <ul><!-- lista  -->
+                    <li><a href="index.html"> incio</a> </li>
+                    <li><a href="login.html">loguearte</a> </li>
+                    <li><a href="registro.html"> registrarte</a> </li>
+                    <li><a href="nosotros.html">sobre nosotros </a> </li>
+                </ul>
+            </nav>
+
+            
+            <section class="espaciado"  > <!-- parte del cuerpo-->
+                <article>
+                    <title>
+                        como se juega?
+                    </title>
+
+                    <time datetime="17-8-2021">esta pagina fue creada el 17/8/2021 </time>
+
+                    <p ><h2>para poder jugar a Pregunta chaco lo que tienes que hacer, es registrarte y logearte a nuestra 
+                        increible pagina web. una vez alli podras disfrutar de preguntas de la provincializacion del chaco.
+                        compite con tus amigos con un formato de una pregunta y 4 respuestas. el que tenga mas puntos ganara! que estas esperando?
+                        </h2>
+                    </p>
+                    <a href="http://google.com"> ¡registrate ya!</a> <!-- se puede usar para dar una direccion determinada -->
+                    <p>                                                       
+                                
+                        
+                        
+
+                    </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bandera_de_la_Provincia_del_Chaco.svg/1024px-Bandera_de_la_Provincia_del_Chaco.svg.png" width="955" height="400" >
+                </article>
+            </section>
+
+            <aside class="espaciado">
+                <blockquote>
+                    programadores: Vazquez Maximo
+                </blockquote>
+
+                
+            </aside>
+            
+            <section>
+                <form >
+                    <input type="" name ="nombre" required="">
+                    <input type="password" name = "contraseña" required="">
+                    <input type="password" name = "confirmacion" required="">
+                    <input type="email" name = "email" required="">
+                    <input type="submit"> <!-- determina el idioma local y como defoul "enviar"-->
+                
+                </form>
+            
+            </section>
+            <footer><!-- pie de pagina -->
+                proyecto final del informatorio 2021 CHACO.
+            </footer>
+        </div>
+    </body>
+
+
+
+
+
+</html>
+
